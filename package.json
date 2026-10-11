@@ -1,0 +1,63 @@
+{
+  "name": "agentic-clip",
+  "version": "0.1.0",
+  "description": "Render short clips with Remotion, Shotstack, or Creatomate.",
+  "keywords": [
+    "short-video",
+    "remotion",
+    "reels",
+    "agentic-suite",
+    "claude-code",
+    "codex",
+    "cli",
+    "mcp"
+  ],
+  "license": "MIT",
+  "author": "Pooria Arab",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pooriaarab/agentic-clip.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "mcpName": "io.github.pooriaarab/agentic-clip",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "agentic-clip": "./dist/cli.js",
+    "agentic-clip-mcp": "./dist/mcp-bin.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "agentic-core": "0.1.0",
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^3.25.0",
+    "@remotion/renderer": "^4.0.0",
+    "@remotion/bundler": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0"
+  }
+}

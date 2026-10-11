@@ -1,0 +1,15 @@
+# agentic-clip
+
+Render short clips with Remotion, Shotstack, or Creatomate.
+
+Keywords: short-video, remotion, reels, agentic-suite, claude-code, codex, cli, mcp.
+
+- SDK: import { renderClip } from "agentic-clip".
+- CLI: agentic-clip render --spec-file clip.json.
+- MCP: run agentic-clip mcp, then call render_clip.
+
+## Docs
+
+- README: https://github.com/pooriaarab/agentic-clip
+- Core contract: https://github.com/pooriaarab/agentic-clip/blob/main/docs/agentic-core.md
+- License: MIT

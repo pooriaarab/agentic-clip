@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pooriaarab/agentic-clip",
+  "description": "Render short clips with Remotion, Shotstack, or Creatomate.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/pooriaarab/agentic-clip",
+    "source": "github",
+    "id": 1413725878
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "agentic-clip",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "runtimeHint": "npx",
+      "packageArguments": [
+        {
+          "type": "positional",
+          "valueHint": "subcommand",
+          "value": "mcp"
+        }
+      ]
+    }
+  ]
+}
