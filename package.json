@@ -1,6 +1,6 @@
 {
   "name": "agentic-clip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Video rendering SDK, CLI, and MCP server for Remotion, Shotstack, Creatomate, Cloudflare R2, and Stream.",
   "keywords": [
     "video-rendering",
