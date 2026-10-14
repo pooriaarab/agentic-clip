@@ -1,14 +1,18 @@
 {
   "name": "agentic-clip",
   "version": "0.1.0",
-  "description": "Render short clips with Remotion, Shotstack, or Creatomate.",
+  "description": "Video rendering SDK, CLI, and MCP server for Remotion, Shotstack, Creatomate, Cloudflare R2, and Stream.",
   "keywords": [
+    "video-rendering",
     "short-video",
     "remotion",
-    "reels",
-    "agentic-suite",
-    "claude-code",
-    "codex",
+    "shotstack",
+    "creatomate",
+    "cloudflare",
+    "r2",
+    "cloudflare-stream",
+    "typescript",
+    "nodejs",
     "cli",
     "mcp"
   ],
